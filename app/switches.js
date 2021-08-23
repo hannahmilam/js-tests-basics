@@ -74,6 +74,7 @@ switch(score - par){
             return "bogie"
     case 2:
             return "double bogie"
+            
     default: return "ouch"
 }
  }
@@ -116,6 +117,7 @@ function cardCounter(card) {
         case "J":
         case "Q":
         case "K":
+        case "A":
           count-- 
           break;
     }
