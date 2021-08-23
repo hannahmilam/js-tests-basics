@@ -119,4 +119,9 @@ function cardCounter(card) {
           count-- 
           break;
     }
+    if(count > 0){
+        return count + " " + "bet"
+    } else {
+        return count + " " + "hold"
+    }
 }
